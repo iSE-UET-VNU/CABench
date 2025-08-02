@@ -1,0 +1,26 @@
+# Image classification
+{"user_request": "I have a composite image 'compose.jpg', which is essentially a 3x3 grid of nine smaller pictures. Could you analyze each of the nine pictures to identify its category, and then tell me which single category appears most frequently across the entire grid?", "expected_output": "worm fence, snake fence, snake-rail fence, Virginia fence", "evaluation": "exact_match"}
+{"user_request": "The image 'digit1.jpg' contains a number from 0 to 9. Is the number prime?", "expected_output": "prime", "evaluation": "exact_match"}
+{"user_request": "I'm analyzing an image called 'digit1.jpg' that contains a single handwritten number. Could you identify the digit first, and then let me know if it's an even or odd number?", "expected_output": "odd", "evaluation": "exact_match"}
+{"user_request": "In the image 'digits.jpg' 128x28 pixels, there are four handwritten digits from left to right. Could you classify each digit and then compute their total sum?", "expected_output": "9", "evaluation": "exact_match"}
+# Token classification
+{"user_request": "In the sentence 'Apple and Microsoft are competing in the AI industry', how many organization (ORG) entities are there?", "expected_output": "2", "evaluation": "exact_match"}
+{"user_request": "In the sentence 'Google and Meta have announced new AI research labs in Canada.', how many organization entities are there?", "expected_output": "2", "evaluation": "exact_match"}
+{"user_request": "List all just medical terms mentioned in the sentence: 'The patient reported experiencing asthma and was prescribed salbutamol.'", "expected_output": "asthma, salbutamol", "evaluation": "exact_match"}
+{"user_request": "In the text 'Maria lives in Paris and works for Google', how many total tokens are organizations and locations?", "expected_output": "2", "evaluation": "exact_match"}
+# Object Detection
+{"user_request": "In the image 'cat_and_dog.jpg', there are a cat and a dog. The animal is the bigger one.", "expected_output": "cat", "evaluation": "exact_match"}
+{"user_request": "The image 'car.jpg' contains a car. The photo is a single image divided into four parts: top-left, top-right, bottom-left, and bottom-right. Which part (quadrant) of the image does the car appear in?", "expected_output": "bottom-left", "evaluation": "exact_match"}
+{"user_request": "How many cats are in the image 'cats.jpg'?", "expected_output": "2", "evaluation": "exact_match"}
+{"user_request": "The image 'zoo.jpg' contains various animals across four quadrants: top-left, top-right, bottom-left, bottom-right. Which quadrant contains the most animals?", "expected_output": "bottom-left", "evaluation": "exact_match"}
+{"user_request": "The image 'kid_and_dog.jpg' has a kid and a dog. Which type of object appears closer to the center of the image, on average?", "expected_output": "dog", "evaluation": "exact_match"}
+{"user_request": "The image 'kid_and_dog2.jpg' has a kid and a dog. Which type of object appears closer to the center of the image, on average?", "expected_output": "kid", "evaluation": "exact_match"}
+{"user_request": "In 'parking_lot.jpg', how many distinct vehicles are parked in the bottom left of the image if the image is divided into four quadrants?", "expected_output": "6", "evaluation": "exact_match"}
+# Object Detection + Image Classification
+{"user_request": "Here's an image called 'dogs.jpg' that shows several dogs in a park. Please identify the breed of each dog, and then tell me which breed appears most frequently.", "expected_output": "golden retriever, labrador", "evaluation": "exact_match", "tag": "object-detection"}
+{"user_request": "This image 'fruits.jpg' shows a variety of fruits. Can you identify the string including the type of each fruit?", "expected_output": "banana, pineapple", "evaluation": "exact_match"}
+{"user_request": "The image 'dogs2.jpg' shows multiple dogs of different breeds. Identify the breed that appears closest to the bottom-right corner.", "expected_output": "Great Dane", "evaluation": "exact_match"}
+{"user_request": "The image 'dogs2.jpg' shows several dogs of different breeds. Which breed corresponds to the smallest dog in the image, based on visual size?", "expected_output": "Chihuahua", "evaluation": "exact_match"}
+# Depth Estimation + Object Detection
+{"user_request": "Given the image 'vehicles.jpg', which object is closer to the camera: the motorcycle or the truck?", "expected_output": "motorcycle", "evaluation": "exact_match"}
+# Image Segmentation

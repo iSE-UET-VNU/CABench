@@ -1,0 +1,26 @@
+{"task": "Task: Handwritten Digit Recognition and Prime Number Classification
+
+Problem Context:
+
+Handwritten digit recognition is a fundamental problem in machine learning and computer vision, with applications in automated form processing, invoice digitization, and educational tools. This task extends digit recognition by requiring the classification of recognized digits as either prime or non-prime numbers, enabling applications in automated math problem-solving or educational assessments.
+
+Objective:
+
+Develop a system to recognize handwritten digits from grayscale images and determine whether the recognized digit is a prime number.
+
+Input: Grayscale images (28x28 pixels) containing a single handwritten digit (0-9), stored in a directory named images.
+Output: A file containing predictions for each image, with the following columns:
+file_name: The name of the image file.
+prediction: Binary label indicating whether the digit is prime ("prime") or not ("non-prime").
+Data Format:
+
+Input: A directory (tasks/images) containing grayscale PNG or JPEG images, each 28x28 pixels, representing a single handwritten digit (0-9).
+Output: A structured file .xlsx with predictions in the format:
+file_name: String (e.g., image1.png).
+prediction: String, either "prime" or "non-prime".
+Prime digits are 2, 3, 5, and 7. Non-prime digits are 0, 1, 4, 6, 8, and 9.
+Evaluation:
+
+The system should accurately recognize digits and correctly classify them as prime or non-prime based on the recognized digit."}
+{"task": ""}
+{"task": ""}

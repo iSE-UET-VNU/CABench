@@ -1,0 +1,42 @@
+{
+    "image": [
+        {
+            "name": "1.jpg",
+            "desc": "A image of a cat. The type of the cat is 'tabby, tabby cat'."
+        },
+        {
+            "name": "2.jpg",
+            "desc": "A image of a dog. The type of the dog is 'Labrador retriever'."
+        }
+    ],
+    "audio": [
+        {
+            "name": "1.mp3",
+            "desc": "A beautiful audio of a cat"
+        },
+        {
+            "name": "2.mp3",
+            "desc": "A beautiful audio of a dog"
+        }
+    ],
+    "video": [
+        {
+            "name": "1.mp4",
+            "desc": "A beautiful video of a cat"
+        },
+        {
+            "name": "2.mp4",
+            "desc": "A beautiful video of a dog"
+        }
+    ],
+    "text": [
+        {
+            "name": "1.txt",
+            "desc": "A beautiful text of a cat"
+        },
+        {
+            "name": "2.txt",
+            "desc": "A beautiful text of a dog"
+        }
+    ]
+}
