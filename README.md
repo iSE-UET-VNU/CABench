@@ -2,7 +2,7 @@
 
 ## Setup
 
-You can install `mlebench` with pip:
+You can install `cabench` with pip:
 
 ```console
 pip install -e .
